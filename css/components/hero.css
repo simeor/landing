@@ -1,0 +1,47 @@
+.hero-text{
+  background: url("../../images/background.png")no-repeat center/cover;
+  background-size: ;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  padding: 16px;
+  width: 100vw;
+  overflow: hidden;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #1ac97a;
+
+}
+
+.hero-text::after{
+  content: "";
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: -1;
+  filter: blur(2px);
+  overflow: hidden;
+}
+
+.hero-text {
+  z-index: 3;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.hero h1{
+  font-size: 40px;
+  margin-bottom: 0;
+}
